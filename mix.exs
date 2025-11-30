@@ -39,7 +39,7 @@ defmodule ACS.Mixfile do
     [
       {:plug_cowboy, "~> 2.7.1"},
       {:uuid, "~> 1.1.8"},
-      {:cwmp_ex, "~> 0.2.7"},
+      {:cwmp_ex, git: "git@github.com:elitefiber/cwmp_ex.git"},
       {:httpoison, "~> 1.8.0"},
       {:poison, "~> 5.0.0"},
       {:poolboy, "~> 1.5.2"},
